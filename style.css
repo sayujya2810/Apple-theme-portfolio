@@ -289,12 +289,19 @@ textarea{
 #iphone-line{
     display: none;
 }
+#time{
+    position: absolute;
+    display: none;
+}
 
+#bg3{
+    display: none;
+}
 
 /* One 650px width it should become iPad */
 
 /* iphone */
-@media screen and (max-width: 451px)
+@media screen and (max-width: 700px)
 {
     #bg, #nav2Div{
         display: none;
@@ -303,13 +310,59 @@ textarea{
     #bg2{
         display:unset;
         max-width: 279px;
-        height: 610px;
+        height: 615px;
     }
 
     #innerDiv {
         width: 90%;
         position: fixed;
-        top: 88%;
+        top: 85%;
+        left: 5%;
+    }
+
+    .glassify{
+        border-radius: 10px;
+    }
+
+    #iphone-line{
+        display: unset;
+        position: fixed;
+        top: 95%;
+        left: 15%;
+        background-color: rgb(207, 207, 207);
+        height: 4px;
+        width: 200px;
+        border-radius: 2px;
+    }
+
+    #time{
+        position: absolute;
+        display: unset;
+        top: 10%;
+        left: 5%;
+        font-size: 2rem;
+        font-weight: 350;
+        color:rgba(255, 255, 255, .8)
+    }
+}
+
+/* ipad */
+
+@media screen and (max-width: 800px)
+{
+    #bg, #bg2, #nav2Div{
+        display: none;
+    }
+
+    #bg3{
+        display: unset;
+        height: 100vh;
+        width: 100vh;
+    }
+    #innerDiv {
+        width: 90%;
+        position: fixed;
+        top: 89%;
         left: 5%;
     }
 
@@ -321,11 +374,21 @@ textarea{
         display: unset;
         position: fixed;
         top: 98%;
-        left: 15%;
+        left: 25%;
         background-color: rgb(207, 207, 207);
         height: 4px;
-        width: 200px;
+        width: 50%;
         border-radius: 2px;
+    }
+
+    #time{
+        position: absolute;
+        display: unset;
+        top: 10%;
+        left: 5%;
+        font-size: 2rem;
+        font-weight: 350;
+        color:rgba(255, 255, 255, .8)
     }
 }
 
