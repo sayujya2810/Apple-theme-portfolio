@@ -107,9 +107,7 @@ i:hover{
     box-shadow: rgba(0, 0, 0, 0.61) 0.5px 4px 5px;
 }
 
-#p1,#p2,#p3,#p4,#p5{
-    
-}
+
 
 nav{
     width: 100%;
@@ -301,10 +299,16 @@ textarea{
 /* One 650px width it should become iPad */
 
 /* iphone */
-@media screen and (max-width: 700px)
+@media screen and (max-width: 550px)
 {
-    #bg, #nav2Div{
+    #bg , #bg3, #nav2Div{
         display: none;
+    }
+
+    html,body{
+        overflow-y: hidden;
+        margin: 0;
+        height: 100%;
     }
 
     #bg2{
@@ -347,23 +351,23 @@ textarea{
 }
 
 /* ipad */
-
-@media screen and (max-width: 800px)
+/* 
+@media screen and (max-width: 700px)
 {
     #bg, #bg2, #nav2Div{
         display: none;
     }
 
     #bg3{
-        display: unset;
-        height: 100vh;
-        width: 100vh;
+        display: flex;
+        height: 634px;
+        width: 643px;
     }
     #innerDiv {
-        width: 90%;
+        width: 60%;
         position: fixed;
         top: 89%;
-        left: 5%;
+        left: 14%;
     }
 
     .glassify{
@@ -373,22 +377,22 @@ textarea{
     #iphone-line{
         display: unset;
         position: fixed;
-        top: 98%;
-        left: 25%;
+        top: 99%;
+        left: 18%;
         background-color: rgb(207, 207, 207);
         height: 4px;
-        width: 50%;
+        width: 350px;
         border-radius: 2px;
     }
 
     #time{
         position: absolute;
         display: unset;
-        top: 10%;
+        top: 20%;
         left: 5%;
         font-size: 2rem;
         font-weight: 350;
         color:rgba(255, 255, 255, .8)
     }
-}
+} */
 
