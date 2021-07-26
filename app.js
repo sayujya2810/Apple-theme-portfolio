@@ -14,7 +14,7 @@ var openHome = document.querySelector(".fa-apple");
 var phone = document.querySelector(".phone");
 var mail = document.querySelector(".mail");
 
-home.style.display = "none";
+// home.style.display = "none";
 contactMe.style.display = "none";
 feed.style.display = "none";
 
