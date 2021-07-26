@@ -257,6 +257,7 @@ ol li{
     padding: 0.25rem;
     max-width: 40%;
     border-radius: 3px;
+    z-index: 2;
 }
 
 textarea{
@@ -264,6 +265,7 @@ textarea{
     padding: 0.25rem;
     border-radius: 3px;
     max-width: 70%;
+    z-index: 2;
 }
 
 #feed h1{
